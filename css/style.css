@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main_container{
+    position: relative;
+    width: 70%;
+    height: 900px;
+    margin: 50px auto;
+    background-color: #0C0C0C;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px 2px;
+}
+.main_container img{
+    width: 100%;
+    height: 100%;
+    opacity: 20%;
+    border-radius: 20px;
+}
+form{
+    position: absolute;
+    width: 60%;
+    height: 80%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+form h1{
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 40px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto 20px;
+}
+.info h3{
+    margin: 10px;
+    text-align: center;
+    color: #BC9864;
+}
+.contact{
+    color: #C9C9C9;
+    text-decoration: none;
+}
+.info p{
+    color: #6b6666;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.icon i{
+    height: 30px;
+    width: 30px;
+    background-color: #BC9864;
+    border-radius: 50%;
+    padding: 15px;
+    color: #000;
+    font-size: 25px;
+}
+.address{
+    text-align: center;
+}
+.massage{
+    margin: 20px auto;
+}
+.massage h1{
+    color: rgb(255, 251, 0);
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.input_box{
+    padding-top: 10px;
+}
+.input_box input{
+    width: 100%;
+    padding: 15px 10px;
+    background: none;
+    color: #fff;
+    outline: none;
+    border: 1px solid #6b6666;
+    border-radius: 10px;
+}
+.input_box input:focus{
+    color: #fff;
+    background: #252525;
+}
+.input_box input::placeholder{
+    font-size: 16px;
+}
+.input_box textarea{
+    width: 100%;
+    background: none;
+    color: #fff;
+    font-size: 17px;
+    padding: 0 10px;
+    outline: none;
+    border-radius: 10px;
+}
+.input_box textarea:focus{
+    color: #fff;
+    background: #252525;
+}
+button {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    background: crimson;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+button:hover{
+    color: crimson;
+    background: none;
+}
